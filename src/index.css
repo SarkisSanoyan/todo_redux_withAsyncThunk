@@ -1,0 +1,68 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: blanchedalmond;
+  text-transform: capitalize;
+}
+
+.App {
+  margin: 0 auto;
+  padding: 10px;
+  width: 50%;
+  text-align: center;
+}
+
+h1 {
+  font-size: 2rem;
+  color: crimson;
+}
+
+.AddTodo {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.Add {
+  background: lightslategray;
+  border: 1px solid black;
+  color: blanchedalmond;
+}
+
+.TodoList {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column-reverse;
+}
+
+.TodoItem {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: .3rem;
+  background-color: rgb(144, 106, 233);
+  margin: .3rem;
+}
+
+.active {
+  background-color: lightgreen;
+}
+
+.done {
+  text-decoration: line-through;
+}
+
+i {
+  margin: 3px;
+  cursor: pointer;
+  color: whitesmoke;
+}
+
+.fa-trash {
+  color: red;
+}
